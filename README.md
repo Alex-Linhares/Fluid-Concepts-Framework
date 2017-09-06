@@ -1,4 +1,5 @@
 #PySeqsee
+
 A python framework for solving complex problems not amenable to brute force.
 
 PySeqsee aims to be a robust framework for developing blackboard-architecture
@@ -6,7 +7,7 @@ based programs that tackle hard problems in a human-like way.
 
 It is open-source, under GNU GPLv3.
 
-###Links
+#Links
 
 Mailing List:
   - https://groups.google.com/forum/#!forum/pyseqsee (to view)
@@ -37,7 +38,7 @@ many components out of the box without making too many irreversible
 commitments.  That is, it provides a full suite of tools to get the job
 done, but also allows you to swap out any component and use the rest.
 
-###Services provided (and their level of completion):
+#Services provided (and their level of completion):
 
 * A reusable GUI. Every project will have a different workspace, but there is
   still much that is shared. PySeqsee allows you to just write the visualization
@@ -62,3 +63,11 @@ done, but also allows you to swap out any component and use the rest.
   seen, but not all that the perl version did). A short video of the Perl version
   can be found here: http://www.youtube.com/watch?v=2KWtRUg8kL8. The dissertation
   is here: http://www.amahabal.com/files/Seqsee--doublesided.pdf
+  
+  
+  
+#Linhares comments below:
+  
+  These comments are being made **prior** to studying Mahabal's code.  Python has such enormous flexibility that almost every architectural design decision can be brought about by iterators, decorators, generators, lambda, etc.  See: https://www.youtube.com/watch?v=7lmCu8wz8ro. As I study *how to think about Fluid Intelligence pythonically* and aquire my own grasping of what fits where, I'll **then** look at Mahaba's code.  
+  
+  In the meantime, I'll post some thoughts in here---they may eventually turn out to be useful in documenting the framework. 
