@@ -73,7 +73,7 @@ class Workspace(object):
     History.AddArtefact(anchored, ObjectType.WS_GROUP, "Initial creation")
     History.Note("Element Inserted")
     self.elements.append(anchored)
-    
+
 
   def InsertElements(self, integers):
     """Utility for adding lots of integers as elements."""
@@ -124,7 +124,7 @@ class Workspace(object):
     for other_gp in self.groups:
       relations_to_discard = set()
       for rel in other_gp.relations:
-        if rel.first == gp or rel.second == gp:
+        if rel.first == gp or rel.second == gp: 
           relations_to_discard.add(rel)
       for rel in relations_to_discard:
         other_gp.relations.discard(rel)
